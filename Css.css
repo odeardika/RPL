@@ -7,20 +7,36 @@ input[type="text"]{
     margin-top: 61px;
     padding-top: 20px;
     padding-left:100px;
+    font-size: 48px;
 }
-
-
 input[type="text"]::placeholder{
-
     color: #b7b7b7;
     font-style: Arial;
     font-size: 48px;
+
+}
+h1 {
+    display: flex;
+    flex-direction: row;
+    size: 2px;
+    color: #b7b7b7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+h1:before {
+    margin-right: 10px;
+    margin-left: 500px;
+}
+h1:after {
+    margin-left: 10px;
+    margin-right: 500px;
 }
 
-
-button{
-    
-}
 #Login_Ke{
     font-weight: bold;
     font-size: 40px;
@@ -40,41 +56,13 @@ button{
     background-color: #2D3E50;
     margin-top: 61px;
 }
+#login:hover{
+    background-color: #32485e;
+}
 #Forget_Pass{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     color: #2D3E50;
-}
-#Line_Or_Left{
-    width: 400px;
-    color: #b7b7b7;
-    margin: 0%; 
-    margin-right: 490px;
-
-}
-#Line_Or_Right{
-    width: 400px;
-    color: #b7b7b7;
-    margin: 0%; 
-    margin-left: 490px;
-    position: unset;    
-}
-h1{
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0, 1em;
-    margin: 10px 0 20px;
-}
-h1 span{
-    background: #ffffff;
-    padding: 0 10px;
-}
-#Login_or{
-    color: #b7b7b7;
-    size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: unset;
 }
 #buat_akun{
     color: #1877F2;
