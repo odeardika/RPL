@@ -1,0 +1,88 @@
+input[type="text"]{
+    width: 779px;
+    height: 101px;
+    border-radius: 32px;
+    border-width: 5px;
+    border-color: #b7b7b7;
+    margin-top: 61px;
+    padding-top: 20px;
+    padding-left:100px;
+}
+
+
+input[type="text"]::placeholder{
+
+    color: #b7b7b7;
+    font-style: Arial;
+    font-size: 48px;
+}
+
+
+button{
+    
+}
+#Login_Ke{
+    font-weight: bold;
+    font-size: 40px;
+    color: #898989;
+    font-family: 'Mukta', sans-serif;
+}
+#login{
+    margin-right: 450px;    
+    border: none;
+    width: 194px;
+    height: 98px;
+    font-family: 'Mukta', sans-serif; 
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 32px;
+    background-color: #2D3E50;
+    margin-top: 61px;
+}
+#Forget_Pass{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #2D3E50;
+}
+#Line_Or_Left{
+    width: 400px;
+    color: #b7b7b7;
+    margin: 0%; 
+    margin-right: 490px;
+
+}
+#Line_Or_Right{
+    width: 400px;
+    color: #b7b7b7;
+    margin: 0%; 
+    margin-left: 490px;
+    position: unset;    
+}
+h1{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0, 1em;
+    margin: 10px 0 20px;
+}
+h1 span{
+    background: #ffffff;
+    padding: 0 10px;
+}
+#Login_or{
+    color: #b7b7b7;
+    size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: unset;
+}
+#buat_akun{
+    color: #1877F2;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tidak_punya_akun{
+    color: #b7b7b7;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
