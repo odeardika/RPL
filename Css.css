@@ -1,3 +1,4 @@
+/*Login*/
 input[type="text"]{
     width: 779px;
     height: 101px;
@@ -5,7 +6,6 @@ input[type="text"]{
     border-width: 5px;
     border-color: #b7b7b7;
     margin-top: 61px;
-    padding-top: 20px;
     padding-left:100px;
     font-size: 48px;
 }
@@ -13,26 +13,41 @@ input[type="text"]::placeholder{
     color: #b7b7b7;
     font-style: Arial;
     font-size: 48px;
-
 }
-h1 {
+input[type="password"]{
+    width: 779px;
+    height: 101px;
+    border-radius: 32px;
+    border-width: 5px;
+    border-color: #b7b7b7;
+    margin-top: 61px;
+    padding-left: 100px;
+    font-size: 48px;
+}
+input[type="password"]::placeholder{
+    color: #b7b7b7;
+    font-style: Arial;
+    font-size: 48px;
+}
+
+#OR_line{
     display: flex;
     flex-direction: row;
     size: 2px;
     color: #b7b7b7;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1:before, h1:after{
+#OR_line:before, #OR_line:after{
     content: "";
     flex: 1 1;
     border-bottom: 1px solid;
     margin: auto;
 }
-h1:before {
+#OR_line:before {
     margin-right: 10px;
     margin-left: 500px;
 }
-h1:after {
+#OR_line:after {
     margin-left: 10px;
     margin-right: 500px;
 }
@@ -43,7 +58,7 @@ h1:after {
     color: #898989;
     font-family: 'Mukta', sans-serif;
 }
-#login{
+#login_button{
     margin-right: 450px;    
     border: none;
     width: 194px;
@@ -56,7 +71,7 @@ h1:after {
     background-color: #2D3E50;
     margin-top: 61px;
 }
-#login:hover{
+#login_button:hover{
     background-color: #32485e;
 }
 #Forget_Pass{
@@ -73,4 +88,31 @@ h1:after {
     color: #b7b7b7;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Resgistrasi */
+input[name="Regis_input"]{
+    height: 55px;
+    border-radius: 15px;
+    margin-top: 12px;
+    font-size: 25px;
+    padding-left: 21px;
+}
+input[name="Regis_input"]::placeholder{
+    font-size: 25px;
+}
+img[name="Logo_regis"]{
+   padding-left: 505px;
+}
+#Daftar_akun{
+    font-size: 40px;
+    color:#393939;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 227px;
+}
+label[name="Regis_label"]{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b5b5b;
+    padding-right: 740px;
 }

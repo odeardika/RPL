@@ -10,14 +10,18 @@
                 <br>
                 <label id="Login_Ke">Login ke dalam akunmu</label>
                 <br>
-                <input id="login "type="text" id="email" name="email" placeholder="Email"><br>
-                <input type="text" id="password" name="password" placeholder="Password">
+                <div class="input_email">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div><br>
+                <div class="input_pass">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
                 <br>
-                <button id="login" >
+                <button id="login_button" >
                     Login
                 </button>
                 <label id="Forget_Pass">Forget password?</label>
-                <h1>OR</h1>
+                <h1 id="OR_line">OR</h1>
                 <label id="tidak_punya_akun">Tidak punya akun?</label>
                 <label id="buat_akun" >Buat akun</label>
             </center>
@@ -25,6 +29,6 @@
         </div>
         
         <link rel="stylesheet" href="Css.css">
-        <script src="login.js"></script>
+        <script src="JS.js"></script>
     </body>
 </html>
